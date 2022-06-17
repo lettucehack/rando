@@ -1,8 +1,21 @@
 <!DOCTYPE html>
+
 <html>
-<body>
-	<p id="randotag">
-	<script>document.getElementById("randotag").innerHTML =Math.floor(Math.random() * 10)+1;</script>
-	</p>
+
+	<body>
+
+		<p id="randotag">
+
+		</p>
+		<script>document.getElementById("randotag").innerHTML =Math.floor(Math.random() * 10)+1</script>
+
+		<button onclick="myFunction()">rando number</button>
+		<script>function myFunction() {
+			document.getElementById("randotag").innerHTML =Math.floor(Math.random() * 10)+1
+		}
+		</script>
+	
 </body>
+
 </html>
+
