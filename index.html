@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>random number generator</title>
+	</head>
+	<body>
+		<p id="randotag"></p>
+		<script>document.getElementById("randotag").innerHTML =Math.floor(Math.random() * 10)+1</script>
+
+		<button onclick="myFunction()">rando number</button>
+		<script>
+			function myFunction() {
+				document.getElementById("randotag").innerHTML =Math.floor(Math.random() * 10)+1
+			}
+		</script>
+	</body>
+
+</html>
